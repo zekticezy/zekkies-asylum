@@ -1,0 +1,1218 @@
+{
+  "mod_elements": [
+    {
+      "name": "CancerousRodent",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancerous_rodent"
+    },
+    {
+      "name": "ThemeOfCancer",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theme_of_cancer"
+    },
+    {
+      "name": "VeryCancerousRodent",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_cancerous_rodent"
+    },
+    {
+      "name": "Gorilla",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorilla"
+    },
+    {
+      "name": "Banana",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana"
+    },
+    {
+      "name": "ShitBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_block"
+    },
+    {
+      "name": "Piss",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piss",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "BrazilBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brazil_block"
+    },
+    {
+      "name": "GuardianOfThePoopMonster",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_of_the_poop_monster"
+    },
+    {
+      "name": "ShitPlains",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_plains"
+    },
+    {
+      "name": "ShitWorld",
+      "type": "dimension",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_world",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "MomFoundThePoopDrawer",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mom_found_the_poop_drawer"
+    },
+    {
+      "name": "ShitBlockRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_block_recipe"
+    },
+    {
+      "name": "BrazilBlockRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brazil_block_recipe"
+    },
+    {
+      "name": "PoopMonsterCastle",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_monster_castle"
+    },
+    {
+      "name": "Capybara",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara"
+    },
+    {
+      "name": "Gloobus",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloobus"
+    },
+    {
+      "name": "ShitSword",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_sword"
+    },
+    {
+      "name": "ShitPickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_pickaxe"
+    },
+    {
+      "name": "ShitAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_axe"
+    },
+    {
+      "name": "ShitShovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_shovel"
+    },
+    {
+      "name": "ShitHoe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_hoe"
+    },
+    {
+      "name": "ShitSwordRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_sword_recipe"
+    },
+    {
+      "name": "ShitPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_pickaxe_recipe"
+    },
+    {
+      "name": "ShitAxeRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_axe_recipe"
+    },
+    {
+      "name": "ShitShovelRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_shovel_recipe"
+    },
+    {
+      "name": "ShitHoeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_hoe_recipe"
+    },
+    {
+      "name": "ThyRoomba",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thy_roomba"
+    },
+    {
+      "name": "KiryuKazuma",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiryu_kazuma"
+    },
+    {
+      "name": "WhiteWoman",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_woman"
+    },
+    {
+      "name": "Sanity",
+      "type": "overlay",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity"
+    },
+    {
+      "name": "MUGRootBeer",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mug_root_beer"
+    },
+    {
+      "name": "AngryMoth",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_moth"
+    },
+    {
+      "name": "McFries",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_fries"
+    },
+    {
+      "name": "ChimkenNuget",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chimken_nuget"
+    },
+    {
+      "name": "MUGTrade",
+      "type": "villagertrade",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mug_trade"
+    },
+    {
+      "name": "McDonalds",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_donalds"
+    },
+    {
+      "name": "McDonaldsLootTable",
+      "type": "loottable",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_donalds_loot_table"
+    },
+    {
+      "name": "Shit",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit"
+    },
+    {
+      "name": "ShitOreOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_ore_ore"
+    },
+    {
+      "name": "ShitRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit_recipe"
+    },
+    {
+      "name": "Duck",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duck"
+    },
+    {
+      "name": "BreakingBadRV",
+      "type": "structure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breaking_bad_rv"
+    },
+    {
+      "name": "DrTrayaurusLab",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dr_trayaurus_lab"
+    },
+    {
+      "name": "ShitsArmor",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shits_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShitsArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shits_armor_helmet_recipe"
+    },
+    {
+      "name": "ShitsArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shits_armor_body_recipe"
+    },
+    {
+      "name": "ShitsArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shits_armor_leggings_recipe"
+    },
+    {
+      "name": "ShitsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shits_armor_boots_recipe"
+    },
+    {
+      "name": "CancerousHalls",
+      "type": "structure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancerous_halls"
+    },
+    {
+      "name": "ArabicNokia",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokia_3310"
+    },
+    {
+      "name": "ArabicNokiaRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arabic_nokia_recipe"
+    },
+    {
+      "name": "MrSkellyBones",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_skelly_bones"
+    },
+    {
+      "name": "PissSwamp",
+      "type": "biome",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piss_swamp"
+    },
+    {
+      "name": "SaulGoodman",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saul_goodman"
+    },
+    {
+      "name": "SaulGoodmanOffice",
+      "type": "structure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saul_goodman_office"
+    },
+    {
+      "name": "SpinalStaircase",
+      "type": "biome",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinal_staircase"
+    },
+    {
+      "name": "TheSpinalStaircase",
+      "type": "structure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_spinal_staircase"
+    },
+    {
+      "name": "Credits",
+      "type": "gui",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits"
+    },
+    {
+      "name": "CreditsOpenOnKeyPressed",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_open_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreditsOpen",
+      "type": "keybind",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_open"
+    },
+    {
+      "name": "SulfricAcid",
+      "type": "fluid",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfric_acid",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "SulfricAcidAdvancement",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfric_acid_advancement"
+    },
+    {
+      "name": "JetstreamSam",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetstream_sam"
+    },
+    {
+      "name": "AverageJapaneseTreeLeaves",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "average_japanese_tree_leaves"
+    },
+    {
+      "name": "HardWood",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_wood"
+    },
+    {
+      "name": "AverageJapaneseForest",
+      "type": "biome",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "average_japanese_forest"
+    },
+    {
+      "name": "SamMurasama",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sam_murasama"
+    },
+    {
+      "name": "MurusamaRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murusama_recipe"
+    },
+    {
+      "name": "BrazilianFlagPlains",
+      "type": "biome",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brazilian_flag_plains"
+    },
+    {
+      "name": "BRAZIL",
+      "type": "dimension",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brazil",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "HardwoodPlanks",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks"
+    },
+    {
+      "name": "HardwoodToHardwoodPlanks",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_to_hardwood_planks"
+    },
+    {
+      "name": "HardwoodPlanksToCraftingTable",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_crafting_table"
+    },
+    {
+      "name": "HardwoodToCharcoal",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_to_charcoal"
+    },
+    {
+      "name": "HardwoodFuel",
+      "type": "fuel",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_fuel"
+    },
+    {
+      "name": "HardwoodPlanksFuel",
+      "type": "fuel",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_fuel"
+    },
+    {
+      "name": "HardwoodPlanksToSword",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_sword"
+    },
+    {
+      "name": "HardwoodPlanksToAxe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_axe"
+    },
+    {
+      "name": "HardwoodPlanksToPickaxe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_pickaxe"
+    },
+    {
+      "name": "HardwoodPlanksToShovel",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_shovel"
+    },
+    {
+      "name": "HardwoodPlanksToHoe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_hoe"
+    },
+    {
+      "name": "BrazilAdvancement",
+      "type": "achievement",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brazil_advancement"
+    },
+    {
+      "name": "RONALDINHO",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronaldinho"
+    },
+    {
+      "name": "SpinningCockroach",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinning_cockroach"
+    },
+    {
+      "name": "Kebab",
+      "type": "structure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kebab"
+    },
+    {
+      "name": "HardwoodDoor",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_door"
+    },
+    {
+      "name": "HardwoodPlanksToDoor",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_door"
+    },
+    {
+      "name": "HardwoodFence",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_fence"
+    },
+    {
+      "name": "HardwoodFenceGates",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_fence_gates"
+    },
+    {
+      "name": "HardwoodTrapdoor",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_trapdoor"
+    },
+    {
+      "name": "HardwoodPlanksToFence",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_fence"
+    },
+    {
+      "name": "HardwoodPlanksToTrapdoor",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_trapdoor"
+    },
+    {
+      "name": "HardwoodPlanksToFenceGate",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_fence_gate"
+    },
+    {
+      "name": "HardwoodSlab",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_slab"
+    },
+    {
+      "name": "HardwoodPlanksToSlab",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_slab"
+    },
+    {
+      "name": "ChickenBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_block"
+    },
+    {
+      "name": "ChimkenNugetRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chimken_nuget_recipe"
+    },
+    {
+      "name": "HardwoodSlabFuel",
+      "type": "fuel",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_slab_fuel"
+    },
+    {
+      "name": "HardwoodFenceFuel",
+      "type": "fuel",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_fence_fuel"
+    },
+    {
+      "name": "HardwoodFenceGatesFuel",
+      "type": "fuel",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_fence_gates_fuel"
+    },
+    {
+      "name": "HardwoodTrapdoorFuel",
+      "type": "fuel",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_trapdoor_fuel"
+    },
+    {
+      "name": "ChickenBlockRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_block_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "themeofcancer",
+      "files": [
+        "yt1s.com-ultrakill-unreleased-ost-theme-of-cancer-cancerous-rodent-theme-game-rip"
+      ],
+      "category": "record",
+      "subtitle": "Cancerous Rodent Theme"
+    },
+    {
+      "name": "gorilla_noise",
+      "files": [
+        "gorilla"
+      ],
+      "category": "neutral",
+      "subtitle": "GORILLA"
+    },
+    {
+      "name": "fart",
+      "files": [
+        "yt1s.com-fart-with-extra-reverb"
+      ],
+      "category": "hostile",
+      "subtitle": "fart"
+    },
+    {
+      "name": "duck",
+      "files": [
+        "quack-sound-effect-altugyamak"
+      ],
+      "category": "neutral",
+      "subtitle": "quack"
+    },
+    {
+      "name": "capybark",
+      "files": [
+        "capybara-barking-bow_-_mp3cut.net_"
+      ],
+      "category": "neutral",
+      "subtitle": "capybara barking"
+    },
+    {
+      "name": "justice",
+      "files": [
+        "judgement-_vocals-only_-_mp3cut.net_"
+      ],
+      "category": "neutral",
+      "subtitle": "oh breaking the law"
+    },
+    {
+      "name": "baka_mitai",
+      "files": [
+        "baka-mitai-_vocals-only_-_mp3cut.net_"
+      ],
+      "category": "neutral",
+      "subtitle": "dame da ne"
+    },
+    {
+      "name": "gloobus",
+      "files": [
+        "yt1s-_mp3cut.net_"
+      ],
+      "category": "neutral",
+      "subtitle": "oh the misery"
+    },
+    {
+      "name": "skellybones",
+      "files": [
+        "yt1s-_mp3cut.net__1_"
+      ],
+      "category": "neutral",
+      "subtitle": "skelly bones doo doo mr skelly bones doo doo"
+    },
+    {
+      "name": "thespinalstaircase",
+      "files": [
+        "yt1s.com-heaven-pierce-her-the-spinal-staircase-ultrakill-p1-intro_1_-_mp3cut.net_"
+      ],
+      "category": "music",
+      "subtitle": "Heaven Pierce Her - The Spinal Staircase"
+    },
+    {
+      "name": "bettercallsaul",
+      "files": [
+        "yt1s-_mp3cut.net__2_"
+      ],
+      "category": "neutral",
+      "subtitle": "Better Call Saul!"
+    },
+    {
+      "name": "jetstream",
+      "files": [
+        "yt1s-_mp3cut.net__3_"
+      ],
+      "category": "neutral",
+      "subtitle": "Memories broken, the truth goes unspoken, I\u0027ve even forgotten my NAAAME!"
+    },
+    {
+      "name": "fnaf2ambience",
+      "files": [
+        "yt1s.com-fnaf-2-hallway-ambience-sound-effect-for-editing"
+      ],
+      "category": "ambient",
+      "subtitle": "random scary noise"
+    },
+    {
+      "name": "brazil",
+      "files": [
+        "yt1s.com-your-going-to-brazil-sound-effect-download-link-read-the-comment"
+      ],
+      "category": "neutral",
+      "subtitle": "YOU ARE GOING TO BRAZIL! *screams*"
+    },
+    {
+      "name": "cockroach",
+      "files": [
+        "yt1s.com-dancing-roach-autotune-hd-remaster-extended-cut_1_"
+      ],
+      "category": "neutral",
+      "subtitle": "waa wee wee waw wow wew woaao"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.zekcraft_beta.shit_axe": "Shit Axe",
+      "block.zekcraft_beta.brazil_block": "Brazil Block",
+      "item.zekcraft_beta.shit_shovel": "Shit Shovel",
+      "entity.zekcraft_beta.kiryu_kazuma": "Kiryu Kazuma",
+      "entity.zekcraft_beta.saul_goodman": "Saul Goodman",
+      "entity.zekcraft_beta.spinning_cockroach": "Spinning Cockroach",
+      "subtitles.fnaf2ambience": "random scary noise",
+      "entity.zekcraft_beta.mr_skelly_bones": "Mr. Skelly Bones",
+      "entity.zekcraft_beta.cancerous_rodent": "Cancerous Rodent",
+      "item.zekcraft_beta.ronaldinho_spawn_egg": "RONALDINHO Spawn Egg",
+      "fluid.zekcraft_beta.sulfric_acid": "Sulfric Acid",
+      "item.zekcraft_beta.gloobus_spawn_egg": "Gloobus Spawn Egg",
+      "block.zekcraft_beta.hard_wood": "Hardwood",
+      "item.zekcraft_beta.white_woman_spawn_egg": "White Woman Spawn Egg",
+      "biome.zekcraft_beta.shit_plains": "Shit Plains",
+      "item.zekcraft_beta.very_cancerous_rodent_spawn_egg": "Very Cancerous Rodent Spawn Egg",
+      "item.zekcraft_beta.thy_roomba_spawn_egg": "Thy Roomba Spawn Egg",
+      "item.zekcraft_beta.duck_spawn_egg": "Duck Spawn Egg",
+      "item.zekcraft_beta.shit_hoe": "Shit Hoe",
+      "biome.zekcraft_beta.spinal_staircase": "Spinal Staircase",
+      "entity.zekcraft_beta.guardian_of_the_poop_monster": "Guardian Of The Poop Monster",
+      "block.zekcraft_beta.hardwood_fence_gates": "Hardwood Fence Gates",
+      "subtitles.bettercallsaul": "Better Call Saul!",
+      "subtitles.themeofcancer": "Theme Of Cancer",
+      "entity.zekcraft_beta.jetstream_sam": "Jetstream Sam",
+      "entity.zekcraft_beta.ronaldinho": "RONALDINHO",
+      "subtitles.cockroach": "waa wee wee waw wow wew woaao",
+      "item.zekcraft_beta.sulfric_acid_bucket": "Bucket Of Sulfric Acid",
+      "block.zekcraft_beta.chicken_block": "Chicken Block",
+      "item.zekcraft_beta.jetstream_sam_spawn_egg": "Jetstream Sam Spawn Egg",
+      "block.zekcraft_beta.hardwood_door": "Hardwood Door",
+      "item.zekcraft_beta.shit_pickaxe": "Shit Pickaxe",
+      "entity.zekcraft_beta.very_cancerous_rodent": "Very Cancerous Rodent",
+      "subtitles.thespinalstaircase": "Heaven Pierce Her - The Spinal Staircase",
+      "block.zekcraft_beta.hardwood_fence": "Hardwood Fence",
+      "item.zekcraft_beta.kiryu_kazuma_spawn_egg": "Kiryu Kazuma Spawn Egg",
+      "entity.zekcraft_beta.duck": "Duck",
+      "advancements.brazil_advancement.descr": "Enter Brazil.",
+      "item.zekcraft_beta.mc_fries": "McFries",
+      "item.zekcraft_beta.sam_murasama": "Samuel\u0027s Murusama",
+      "item.zekcraft_beta.shits_armor_helmet": "Shits Helmet",
+      "subtitles.justice": "oh breaking the law",
+      "advancements.mom_found_the_poop_drawer.descr": "Enter The Shitworld",
+      "item.zekcraft_beta.theme_of_cancer.desc": "The Cancerous Theme.",
+      "subtitles.baka_mitai": "dame da ne",
+      "block.zekcraft_beta.shit_ore_ore": "Shit Ore",
+      "subtitles.duck": "quack",
+      "item.zekcraft_beta.nokia_3310": "Nokia 3310",
+      "biome.zekcraft_beta.brazilian_flag_plains": "Brazilian Flag Plains",
+      "item.zekcraft_beta.mr_skelly_bones_spawn_egg": "Mr. Skelly Bones Spawn Egg",
+      "item.zekcraft_beta.cancerous_rodent_spawn_egg": "Cancerous Rodent Spawn Egg",
+      "subtitles.skellybones": "skelly bones doo doo mr skelly bones doo doo",
+      "advancements.brazil_advancement.title": "You are going to BRAZIL!",
+      "entity.zekcraft_beta.white_woman": "White Woman",
+      "item.zekcraft_beta.saul_goodman_spawn_egg": "Saul Goodman Spawn Egg",
+      "item.zekcraft_beta.banana": "Banana",
+      "item.zekcraft_beta.theme_of_cancer": "Theme Of Cancer",
+      "biome.zekcraft_beta.piss_swamp": "Piss Swamp",
+      "subtitles.brazil": "YOU ARE GOING TO BRAZIL! *screams*",
+      "block.zekcraft_beta.hardwood_trapdoor": "Hardwood Trapdoor",
+      "entity.zekcraft_beta.thy_roomba": "Thy Roomba",
+      "item.zekcraft_beta.capybara_spawn_egg": "Capybara Spawn Egg",
+      "item.zekcraft_beta.chimken_nuget": "Chimken Nuget",
+      "block.zekcraft_beta.piss": "Piss",
+      "item.zekcraft_beta.shits_armor_leggings": "Shits Leggings",
+      "advancements.sulfric_acid_advancement.descr": "Dip yourself in sulfric acid",
+      "item.zekcraft_beta.spinning_cockroach_spawn_egg": "Spinning Cockroach Spawn Egg",
+      "block.zekcraft_beta.hardwood_slab": "Hardwood Slab",
+      "item.zekcraft_beta.shits_armor_chestplate": "Shits Chestplate",
+      "fluid.zekcraft_beta.piss": "Piss",
+      "advancements.mom_found_the_poop_drawer.title": "Mom Found The Poop Drawer",
+      "subtitles.gorilla_noise": "GORILLA",
+      "entity.zekcraft_beta.angry_moth": "Angry Moth",
+      "item.zekcraft_beta.guardian_of_the_poop_monster_spawn_egg": "Guardian Of The Poop Monster Spawn Egg",
+      "block.zekcraft_beta.average_japanese_tree_leaves": "Average Japanese Tree Leaves",
+      "item.zekcraft_beta.brazil": "Brazil Plane Ticket",
+      "block.zekcraft_beta.hardwood_planks": "Hardwood Planks",
+      "entity.zekcraft_beta.gloobus": "Gloobus",
+      "item.zekcraft_beta.shit_world": "Shit World Pass",
+      "advancements.sulfric_acid_advancement.title": "I Should Dip My Balls In Sulfric Acid",
+      "item.zekcraft_beta.mug_root_beer": "MUG Root Beer",
+      "subtitles.gloobus": "oh the misery",
+      "subtitles.capybark": "capybara barking",
+      "item.zekcraft_beta.shits_armor_boots": "Shits Boots",
+      "subtitles.fart": "fart",
+      "biome.zekcraft_beta.average_japanese_forest": "Average Japanese Forest",
+      "item.zekcraft_beta.shit": "Shit",
+      "item.zekcraft_beta.angry_moth_spawn_egg": "Angry Moth Spawn Egg",
+      "block.zekcraft_beta.sulfric_acid": "Sulfric Acid",
+      "subtitles.jetstream": "Memories broken, the truth goes unspoken, I\u0027ve even forgotten my NAAAME!",
+      "entity.zekcraft_beta.capybara": "Capybara",
+      "item.zekcraft_beta.shit_sword": "Shit Sword",
+      "item.zekcraft_beta.gorilla_spawn_egg": "Gorilla Spawn Egg",
+      "block.zekcraft_beta.shit_block": "Shit Block",
+      "item.zekcraft_beta.piss_bucket": "Piss In A Bucket",
+      "entity.zekcraft_beta.gorilla": "Gorilla",
+      "key.zekcraft_beta.credits_open": "Credits Open"
+    },
+    "fr_fr": {
+      "item.zekcraft_beta.shit_axe": "Hache en merde",
+      "block.zekcraft_beta.brazil_block": "Bloc Brésil",
+      "item.zekcraft_beta.shit_shovel": "Pelle en merde",
+      "entity.zekcraft_beta.kiryu_kazuma": "Kiryu Kazuma",
+      "entity.zekcraft_beta.saul_goodman": "Saul Goodman",
+      "entity.zekcraft_beta.spinning_cockroach": "Spinning Cockroach",
+      "subtitles.fnaf2ambience": "random scary noise",
+      "entity.zekcraft_beta.mr_skelly_bones": "Mr. Skelly Bones",
+      "entity.zekcraft_beta.cancerous_rodent": "Rodent cancereux",
+      "item.zekcraft_beta.ronaldinho_spawn_egg": "RONALDINHO Spawn Egg",
+      "fluid.zekcraft_beta.sulfric_acid": "Sulfric Acid",
+      "item.zekcraft_beta.gloobus_spawn_egg": "Spawn Gloobous",
+      "block.zekcraft_beta.hard_wood": "Hardwood",
+      "item.zekcraft_beta.white_woman_spawn_egg": "Spawn Femme",
+      "biome.zekcraft_beta.shit_plains": "Plains en merdre",
+      "item.zekcraft_beta.very_cancerous_rodent_spawn_egg": "Spawn Rodent très cancereux",
+      "item.zekcraft_beta.thy_roomba_spawn_egg": "Spawn Le Roomba",
+      "item.zekcraft_beta.duck_spawn_egg": "Spawn Canard",
+      "item.zekcraft_beta.shit_hoe": "Houe en merde",
+      "biome.zekcraft_beta.spinal_staircase": "Spinal Staircase",
+      "entity.zekcraft_beta.guardian_of_the_poop_monster": "Guarde du Monstre du Caca",
+      "block.zekcraft_beta.hardwood_fence_gates": "Hardwood Fence Gates",
+      "subtitles.bettercallsaul": "Better Call Saul!",
+      "subtitles.themeofcancer": "Cancerous Rodent Theme",
+      "entity.zekcraft_beta.jetstream_sam": "Jetstream Sam",
+      "entity.zekcraft_beta.ronaldinho": "RONALDINHO",
+      "subtitles.cockroach": "waa wee wee waw wow wew woaao",
+      "item.zekcraft_beta.sulfric_acid_bucket": "Bucket Of Sulfric Acid",
+      "block.zekcraft_beta.chicken_block": "Chicken Block",
+      "item.zekcraft_beta.jetstream_sam_spawn_egg": "Jetstream Sam Spawn Egg",
+      "block.zekcraft_beta.hardwood_door": "Hardwood Door",
+      "item.zekcraft_beta.shit_pickaxe": "Pioche en merde",
+      "entity.zekcraft_beta.very_cancerous_rodent": "Rodent très canceruex",
+      "subtitles.thespinalstaircase": "Heaven Pierce Her - The Spinal Staircase",
+      "block.zekcraft_beta.hardwood_fence": "Hardwood Fence",
+      "item.zekcraft_beta.kiryu_kazuma_spawn_egg": "Spawn Kiryu Kazuma",
+      "entity.zekcraft_beta.duck": "Canard",
+      "advancements.brazil_advancement.descr": "Enter Brazil.",
+      "item.zekcraft_beta.mc_fries": "McFries",
+      "item.zekcraft_beta.sam_murasama": "Samuel\u0027s Murusama",
+      "item.zekcraft_beta.shits_armor_helmet": "Casque de merde",
+      "subtitles.justice": "oh breaking the law",
+      "advancements.mom_found_the_poop_drawer.descr": "Entrez dans le monde de merde.",
+      "item.zekcraft_beta.theme_of_cancer.desc": "Le Theme Cancereux",
+      "subtitles.baka_mitai": "dame da ne",
+      "block.zekcraft_beta.shit_ore_ore": "Minerai de merde",
+      "subtitles.duck": "quack",
+      "item.zekcraft_beta.nokia_3310": "Nokia 3310",
+      "biome.zekcraft_beta.brazilian_flag_plains": "Brazilian Flag Plains",
+      "item.zekcraft_beta.mr_skelly_bones_spawn_egg": "Mr. Skelly Bones Spawn Egg",
+      "item.zekcraft_beta.cancerous_rodent_spawn_egg": "Spawn Rodent cancereux",
+      "subtitles.skellybones": "skelly bones doo doo mr skelly bones doo doo",
+      "advancements.brazil_advancement.title": "You are going to BRAZIL!",
+      "entity.zekcraft_beta.white_woman": "Femme",
+      "item.zekcraft_beta.saul_goodman_spawn_egg": "Saul Goodman Spawn Egg",
+      "item.zekcraft_beta.banana": "Banane",
+      "item.zekcraft_beta.theme_of_cancer": "Theme du Cancer",
+      "biome.zekcraft_beta.piss_swamp": "Piss Swamp",
+      "subtitles.brazil": "YOU ARE GOING TO BRAZIL! *screams*",
+      "block.zekcraft_beta.hardwood_trapdoor": "Hardwood Trapdoor",
+      "entity.zekcraft_beta.thy_roomba": "Le Roomba",
+      "item.zekcraft_beta.capybara_spawn_egg": "Spawn Capybara",
+      "item.zekcraft_beta.chimken_nuget": "Chimken Nuget",
+      "block.zekcraft_beta.piss": "Pisse",
+      "item.zekcraft_beta.shits_armor_leggings": "Pantalons en merde",
+      "advancements.sulfric_acid_advancement.descr": "Dip yourself in sulfric acid",
+      "item.zekcraft_beta.spinning_cockroach_spawn_egg": "Spinning Cockroach Spawn Egg",
+      "block.zekcraft_beta.hardwood_slab": "Hardwood Slab",
+      "item.zekcraft_beta.shits_armor_chestplate": "Platre en merde",
+      "fluid.zekcraft_beta.piss": "Pisse",
+      "advancements.mom_found_the_poop_drawer.title": "Maman, j\u0027suis dans le dimension du caca!",
+      "subtitles.gorilla_noise": "GORILLA",
+      "entity.zekcraft_beta.angry_moth": "Papillion enragée",
+      "item.zekcraft_beta.guardian_of_the_poop_monster_spawn_egg": "Spawn Guarde du Monstre du Caca",
+      "block.zekcraft_beta.average_japanese_tree_leaves": "Average Japanese Tree Leaves",
+      "item.zekcraft_beta.brazil": "Brazil Plane Ticket",
+      "block.zekcraft_beta.hardwood_planks": "Hardwood Planks",
+      "entity.zekcraft_beta.gloobus": "Gloobous",
+      "item.zekcraft_beta.shit_world": "Passe au Monde de Merde",
+      "advancements.sulfric_acid_advancement.title": "I Should Dip My Balls In Sulfric Acid",
+      "item.zekcraft_beta.mug_root_beer": "Bière MUG",
+      "subtitles.gloobus": "oh the misery",
+      "subtitles.capybark": "capybara barking",
+      "item.zekcraft_beta.shits_armor_boots": "Chassures en merde",
+      "subtitles.fart": "fart",
+      "biome.zekcraft_beta.average_japanese_forest": "Average Japanese Forest",
+      "item.zekcraft_beta.shit": "Merde",
+      "item.zekcraft_beta.angry_moth_spawn_egg": "Spawn Papillion Enragé",
+      "block.zekcraft_beta.sulfric_acid": "Sulfric Acid",
+      "subtitles.jetstream": "Memories broken, the truth goes unspoken, I\u0027ve even forgotten my NAAAME!",
+      "entity.zekcraft_beta.capybara": "Capybara",
+      "item.zekcraft_beta.shit_sword": "Epée en merde",
+      "item.zekcraft_beta.gorilla_spawn_egg": "Spawn Gorille",
+      "block.zekcraft_beta.shit_block": "Bloc de merde",
+      "item.zekcraft_beta.piss_bucket": "Seau de pisse",
+      "entity.zekcraft_beta.gorilla": "Gorille",
+      "key.zekcraft_beta.credits_open": "Credits Open"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "zekcraft_beta",
+    "modName": "Zekcraft",
+    "version": "1.0.0",
+    "description": "Make your game even WORSE!",
+    "author": "zekticezy",
+    "websiteURL": "https://sites.google.com/view/zekticezy",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "zk",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Made with MCreator! https://mcreator.net ;)",
+    "modElementsPackage": "net.mcreator.zekcraftbeta",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

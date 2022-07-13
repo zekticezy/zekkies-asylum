@@ -1,0 +1,57 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Sanity:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sanity:",
+          "x": 187,
+          "y": 195
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "0.0%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "0.0%",
+          "x": 224,
+          "y": 195
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Due to you playing this mod, your sanity levels are low.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Due to you playing this mod, your sanity levels are low.",
+          "x": 75,
+          "y": 207
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

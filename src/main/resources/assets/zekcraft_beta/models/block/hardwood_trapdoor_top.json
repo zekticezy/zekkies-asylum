@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "zekcraft_beta:blocks/hardwood_door_top",
+    "particle": "zekcraft_beta:blocks/hardwood_door_top"
+  }
+}

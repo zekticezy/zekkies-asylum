@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "INSERT",
+    "keyBindingName": "Credits Open",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "CreditsOpenOnKeyPressed"
+    }
+  }
+}

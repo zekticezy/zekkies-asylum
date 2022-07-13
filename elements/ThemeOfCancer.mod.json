@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "themeofcancer_disc",
+    "name": "Theme Of Cancer",
+    "description": "The Cancerous Theme.",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:themeofcancer"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

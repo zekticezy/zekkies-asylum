@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "zekcraft_beta:items/project_441"
+  }
+}

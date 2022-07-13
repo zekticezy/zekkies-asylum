@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "zekcraft_beta:block/shit_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "zekcraft_beta:block/shit_world_portal_ns"
+    }
+  }
+}
