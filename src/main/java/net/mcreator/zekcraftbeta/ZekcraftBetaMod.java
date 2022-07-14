@@ -31,6 +31,7 @@ import net.mcreator.zekcraftbeta.init.ZekcraftBetaModFluids;
 import net.mcreator.zekcraftbeta.init.ZekcraftBetaModFeatures;
 import net.mcreator.zekcraftbeta.init.ZekcraftBetaModEntities;
 import net.mcreator.zekcraftbeta.init.ZekcraftBetaModBlocks;
+import net.mcreator.zekcraftbeta.init.ZekcraftBetaModBlockEntities;
 import net.mcreator.zekcraftbeta.init.ZekcraftBetaModBiomes;
 
 import java.util.function.Supplier;
@@ -52,7 +53,7 @@ public class ZekcraftBetaMod {
 		ZekcraftBetaModBlocks.REGISTRY.register(bus);
 		ZekcraftBetaModItems.REGISTRY.register(bus);
 		ZekcraftBetaModEntities.REGISTRY.register(bus);
-
+		ZekcraftBetaModBlockEntities.REGISTRY.register(bus);
 		ZekcraftBetaModFeatures.REGISTRY.register(bus);
 		ZekcraftBetaModFluids.REGISTRY.register(bus);
 

@@ -865,6 +865,157 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chicken_block_recipe"
+    },
+    {
+      "name": "HardwoodPlanksToSticks",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_sticks"
+    },
+    {
+      "name": "HardwoodPlanksToBed",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardwood_planks_to_bed"
+    },
+    {
+      "name": "ComputerScreen",
+      "type": "gui",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_screen"
+    },
+    {
+      "name": "Computer",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer"
+    },
+    {
+      "name": "ComputerRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_recipe"
+    },
+    {
+      "name": "Prison",
+      "type": "livingentity",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prison"
+    },
+    {
+      "name": "Poopmonster",
+      "type": "livingentity",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poopmonster"
+    },
+    {
+      "name": "PoopmonsterOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poopmonster_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrisonEntityDies",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prison_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrisonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prison_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SulfricAcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfric_acid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -988,22 +1139,46 @@
       ],
       "category": "neutral",
       "subtitle": "waa wee wee waw wow wew woaao"
+    },
+    {
+      "name": "order",
+      "files": [
+        "yt1s-_mp3cut.net__4_"
+      ],
+      "category": "record",
+      "subtitle": "Heaven Pierce Her - ORDER"
+    },
+    {
+      "name": "chaos",
+      "files": [
+        "yt1s-_mp3cut.net__5_"
+      ],
+      "category": "record",
+      "subtitle": "Heaven Pierce Her - CHAOS"
+    },
+    {
+      "name": "chaos_end",
+      "files": [
+        "yt1s-_mp3cut.net__6_"
+      ],
+      "category": "record",
+      "subtitle": "Heaven Pierce Her - CHAOS (end)"
     }
   ],
   "language_map": {
     "en_us": {
       "item.zekcraft_beta.shit_axe": "Shit Axe",
       "block.zekcraft_beta.brazil_block": "Brazil Block",
-      "item.zekcraft_beta.shit_shovel": "Shit Shovel",
       "entity.zekcraft_beta.kiryu_kazuma": "Kiryu Kazuma",
+      "item.zekcraft_beta.shit_shovel": "Shit Shovel",
       "entity.zekcraft_beta.saul_goodman": "Saul Goodman",
       "entity.zekcraft_beta.spinning_cockroach": "Spinning Cockroach",
       "subtitles.fnaf2ambience": "random scary noise",
       "entity.zekcraft_beta.mr_skelly_bones": "Mr. Skelly Bones",
       "entity.zekcraft_beta.cancerous_rodent": "Cancerous Rodent",
       "item.zekcraft_beta.ronaldinho_spawn_egg": "RONALDINHO Spawn Egg",
-      "fluid.zekcraft_beta.sulfric_acid": "Sulfric Acid",
       "item.zekcraft_beta.gloobus_spawn_egg": "Gloobus Spawn Egg",
+      "fluid.zekcraft_beta.sulfric_acid": "Sulfric Acid",
       "block.zekcraft_beta.hard_wood": "Hardwood",
       "item.zekcraft_beta.white_woman_spawn_egg": "White Woman Spawn Egg",
       "biome.zekcraft_beta.shit_plains": "Shit Plains",
@@ -1031,6 +1206,7 @@
       "entity.zekcraft_beta.duck": "Duck",
       "advancements.brazil_advancement.descr": "Enter Brazil.",
       "item.zekcraft_beta.mc_fries": "McFries",
+      "subtitles.order": "Heaven Pierce Her - ORDER",
       "item.zekcraft_beta.sam_murasama": "Samuel\u0027s Murusama",
       "item.zekcraft_beta.shits_armor_helmet": "Shits Helmet",
       "subtitles.justice": "oh breaking the law",
@@ -1045,8 +1221,10 @@
       "item.zekcraft_beta.cancerous_rodent_spawn_egg": "Cancerous Rodent Spawn Egg",
       "subtitles.skellybones": "skelly bones doo doo mr skelly bones doo doo",
       "advancements.brazil_advancement.title": "You are going to BRAZIL!",
+      "entity.zekcraft_beta.prison": "The Poopmonster\u0027s Prison",
       "entity.zekcraft_beta.white_woman": "White Woman",
       "item.zekcraft_beta.saul_goodman_spawn_egg": "Saul Goodman Spawn Egg",
+      "block.zekcraft_beta.computer": "Computer",
       "item.zekcraft_beta.banana": "Banana",
       "item.zekcraft_beta.theme_of_cancer": "Theme Of Cancer",
       "biome.zekcraft_beta.piss_swamp": "Piss Swamp",
@@ -1057,13 +1235,17 @@
       "item.zekcraft_beta.chimken_nuget": "Chimken Nuget",
       "block.zekcraft_beta.piss": "Piss",
       "item.zekcraft_beta.shits_armor_leggings": "Shits Leggings",
+      "item.zekcraft_beta.poopmonster_spawn_egg": "The Poopmonster Spawn Egg",
       "advancements.sulfric_acid_advancement.descr": "Dip yourself in sulfric acid",
+      "entity.zekcraft_beta.poopmonster": "The Poopmonster",
       "item.zekcraft_beta.spinning_cockroach_spawn_egg": "Spinning Cockroach Spawn Egg",
       "block.zekcraft_beta.hardwood_slab": "Hardwood Slab",
       "item.zekcraft_beta.shits_armor_chestplate": "Shits Chestplate",
+      "item.zekcraft_beta.prison_spawn_egg": "The Poopmonster\u0027s Prison Spawn Egg",
       "fluid.zekcraft_beta.piss": "Piss",
       "advancements.mom_found_the_poop_drawer.title": "Mom Found The Poop Drawer",
       "subtitles.gorilla_noise": "GORILLA",
+      "subtitles.chaos": "Heaven Pierce Her - CHAOS",
       "entity.zekcraft_beta.angry_moth": "Angry Moth",
       "item.zekcraft_beta.guardian_of_the_poop_monster_spawn_egg": "Guardian Of The Poop Monster Spawn Egg",
       "block.zekcraft_beta.average_japanese_tree_leaves": "Average Japanese Tree Leaves",
@@ -1081,6 +1263,7 @@
       "item.zekcraft_beta.shit": "Shit",
       "item.zekcraft_beta.angry_moth_spawn_egg": "Angry Moth Spawn Egg",
       "block.zekcraft_beta.sulfric_acid": "Sulfric Acid",
+      "subtitles.chaos_end": "Heaven Pierce Her - CHAOS (end)",
       "subtitles.jetstream": "Memories broken, the truth goes unspoken, I\u0027ve even forgotten my NAAAME!",
       "entity.zekcraft_beta.capybara": "Capybara",
       "item.zekcraft_beta.shit_sword": "Shit Sword",
@@ -1093,16 +1276,16 @@
     "fr_fr": {
       "item.zekcraft_beta.shit_axe": "Hache en merde",
       "block.zekcraft_beta.brazil_block": "Bloc Brésil",
-      "item.zekcraft_beta.shit_shovel": "Pelle en merde",
       "entity.zekcraft_beta.kiryu_kazuma": "Kiryu Kazuma",
+      "item.zekcraft_beta.shit_shovel": "Pelle en merde",
       "entity.zekcraft_beta.saul_goodman": "Saul Goodman",
       "entity.zekcraft_beta.spinning_cockroach": "Spinning Cockroach",
       "subtitles.fnaf2ambience": "random scary noise",
       "entity.zekcraft_beta.mr_skelly_bones": "Mr. Skelly Bones",
       "entity.zekcraft_beta.cancerous_rodent": "Rodent cancereux",
       "item.zekcraft_beta.ronaldinho_spawn_egg": "RONALDINHO Spawn Egg",
-      "fluid.zekcraft_beta.sulfric_acid": "Sulfric Acid",
       "item.zekcraft_beta.gloobus_spawn_egg": "Spawn Gloobous",
+      "fluid.zekcraft_beta.sulfric_acid": "Sulfric Acid",
       "block.zekcraft_beta.hard_wood": "Hardwood",
       "item.zekcraft_beta.white_woman_spawn_egg": "Spawn Femme",
       "biome.zekcraft_beta.shit_plains": "Plains en merdre",
@@ -1130,6 +1313,7 @@
       "entity.zekcraft_beta.duck": "Canard",
       "advancements.brazil_advancement.descr": "Enter Brazil.",
       "item.zekcraft_beta.mc_fries": "McFries",
+      "subtitles.order": "Heaven Pierce Her - ORDER",
       "item.zekcraft_beta.sam_murasama": "Samuel\u0027s Murusama",
       "item.zekcraft_beta.shits_armor_helmet": "Casque de merde",
       "subtitles.justice": "oh breaking the law",
@@ -1144,8 +1328,10 @@
       "item.zekcraft_beta.cancerous_rodent_spawn_egg": "Spawn Rodent cancereux",
       "subtitles.skellybones": "skelly bones doo doo mr skelly bones doo doo",
       "advancements.brazil_advancement.title": "You are going to BRAZIL!",
+      "entity.zekcraft_beta.prison": "Prison",
       "entity.zekcraft_beta.white_woman": "Femme",
       "item.zekcraft_beta.saul_goodman_spawn_egg": "Saul Goodman Spawn Egg",
+      "block.zekcraft_beta.computer": "Computer",
       "item.zekcraft_beta.banana": "Banane",
       "item.zekcraft_beta.theme_of_cancer": "Theme du Cancer",
       "biome.zekcraft_beta.piss_swamp": "Piss Swamp",
@@ -1156,13 +1342,17 @@
       "item.zekcraft_beta.chimken_nuget": "Chimken Nuget",
       "block.zekcraft_beta.piss": "Pisse",
       "item.zekcraft_beta.shits_armor_leggings": "Pantalons en merde",
+      "item.zekcraft_beta.poopmonster_spawn_egg": "The Poopmonster Spawn Egg",
       "advancements.sulfric_acid_advancement.descr": "Dip yourself in sulfric acid",
+      "entity.zekcraft_beta.poopmonster": "The Poopmonster",
       "item.zekcraft_beta.spinning_cockroach_spawn_egg": "Spinning Cockroach Spawn Egg",
       "block.zekcraft_beta.hardwood_slab": "Hardwood Slab",
       "item.zekcraft_beta.shits_armor_chestplate": "Platre en merde",
+      "item.zekcraft_beta.prison_spawn_egg": "Prison Spawn Egg",
       "fluid.zekcraft_beta.piss": "Pisse",
       "advancements.mom_found_the_poop_drawer.title": "Maman, j\u0027suis dans le dimension du caca!",
       "subtitles.gorilla_noise": "GORILLA",
+      "subtitles.chaos": "Heaven Pierce Her - CHAOS",
       "entity.zekcraft_beta.angry_moth": "Papillion enragée",
       "item.zekcraft_beta.guardian_of_the_poop_monster_spawn_egg": "Spawn Guarde du Monstre du Caca",
       "block.zekcraft_beta.average_japanese_tree_leaves": "Average Japanese Tree Leaves",
@@ -1180,6 +1370,7 @@
       "item.zekcraft_beta.shit": "Merde",
       "item.zekcraft_beta.angry_moth_spawn_egg": "Spawn Papillion Enragé",
       "block.zekcraft_beta.sulfric_acid": "Sulfric Acid",
+      "subtitles.chaos_end": "Heaven Pierce Her - CHAOS (end)",
       "subtitles.jetstream": "Memories broken, the truth goes unspoken, I\u0027ve even forgotten my NAAAME!",
       "entity.zekcraft_beta.capybara": "Capybara",
       "item.zekcraft_beta.shit_sword": "Epée en merde",

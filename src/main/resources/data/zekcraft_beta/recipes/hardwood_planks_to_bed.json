@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "item": "zekcraft_beta:hardwood_planks"
+    },
+    "4": {
+      "item": "zekcraft_beta:hardwood_planks"
+    },
+    "5": {
+      "item": "zekcraft_beta:hardwood_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_bed",
+    "count": 1
+  }
+}

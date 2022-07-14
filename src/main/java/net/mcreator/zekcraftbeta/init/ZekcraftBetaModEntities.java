@@ -24,6 +24,9 @@ import net.mcreator.zekcraftbeta.entity.ThyRoombaEntity;
 import net.mcreator.zekcraftbeta.entity.SpinningCockroachEntity;
 import net.mcreator.zekcraftbeta.entity.SaulGoodmanEntity;
 import net.mcreator.zekcraftbeta.entity.RONALDINHOEntity;
+import net.mcreator.zekcraftbeta.entity.PrisonEntityProjectile;
+import net.mcreator.zekcraftbeta.entity.PrisonEntity;
+import net.mcreator.zekcraftbeta.entity.PoopmonsterEntity;
 import net.mcreator.zekcraftbeta.entity.MrSkellyBonesEntity;
 import net.mcreator.zekcraftbeta.entity.KiryuKazumaEntity;
 import net.mcreator.zekcraftbeta.entity.JetstreamSamEntity;
@@ -128,6 +131,19 @@ public class ZekcraftBetaModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpinningCockroachEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PrisonEntity>> PRISON = register("prison",
+			EntityType.Builder.<PrisonEntity>of(PrisonEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(PrisonEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PrisonEntityProjectile>> PRISON_PROJECTILE = register("projectile_prison",
+			EntityType.Builder.<PrisonEntityProjectile>of(PrisonEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(PrisonEntityProjectile::new).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PoopmonsterEntity>> POOPMONSTER = register("poopmonster",
+			EntityType.Builder.<PoopmonsterEntity>of(PoopmonsterEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PoopmonsterEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -152,6 +168,8 @@ public class ZekcraftBetaModEntities {
 			JetstreamSamEntity.init();
 			RONALDINHOEntity.init();
 			SpinningCockroachEntity.init();
+			PrisonEntity.init();
+			PoopmonsterEntity.init();
 		});
 	}
 
@@ -173,5 +191,7 @@ public class ZekcraftBetaModEntities {
 		event.put(JETSTREAM_SAM.get(), JetstreamSamEntity.createAttributes().build());
 		event.put(RONALDINHO.get(), RONALDINHOEntity.createAttributes().build());
 		event.put(SPINNING_COCKROACH.get(), SpinningCockroachEntity.createAttributes().build());
+		event.put(PRISON.get(), PrisonEntity.createAttributes().build());
+		event.put(POOPMONSTER.get(), PoopmonsterEntity.createAttributes().build());
 	}
 }

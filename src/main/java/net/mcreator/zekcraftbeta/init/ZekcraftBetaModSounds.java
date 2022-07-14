@@ -35,6 +35,9 @@ public class ZekcraftBetaModSounds {
 		REGISTRY.put(new ResourceLocation("zekcraft_beta", "fnaf2ambience"), new SoundEvent(new ResourceLocation("zekcraft_beta", "fnaf2ambience")));
 		REGISTRY.put(new ResourceLocation("zekcraft_beta", "brazil"), new SoundEvent(new ResourceLocation("zekcraft_beta", "brazil")));
 		REGISTRY.put(new ResourceLocation("zekcraft_beta", "cockroach"), new SoundEvent(new ResourceLocation("zekcraft_beta", "cockroach")));
+		REGISTRY.put(new ResourceLocation("zekcraft_beta", "order"), new SoundEvent(new ResourceLocation("zekcraft_beta", "order")));
+		REGISTRY.put(new ResourceLocation("zekcraft_beta", "chaos"), new SoundEvent(new ResourceLocation("zekcraft_beta", "chaos")));
+		REGISTRY.put(new ResourceLocation("zekcraft_beta", "chaos_end"), new SoundEvent(new ResourceLocation("zekcraft_beta", "chaos_end")));
 	}
 
 	@SubscribeEvent

@@ -37,8 +37,8 @@ public class AverageJapaneseForestBiome {
 			Climate.Parameter.span(-0.846897317991f, -0.561183032277f), 0);
 
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)
-				.foliageColorOverride(10387789).grassColorOverride(9470285).build();
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-26113).waterColor(-16776961).waterFogColor(329011).skyColor(-26113)
+				.foliageColorOverride(10387789).grassColorOverride(-6750208).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register(
 				"zekcraft_beta:tree_average_japanese_forest",

@@ -17,6 +17,8 @@ import net.mcreator.zekcraftbeta.client.renderer.ThyRoombaRenderer;
 import net.mcreator.zekcraftbeta.client.renderer.SpinningCockroachRenderer;
 import net.mcreator.zekcraftbeta.client.renderer.SaulGoodmanRenderer;
 import net.mcreator.zekcraftbeta.client.renderer.RONALDINHORenderer;
+import net.mcreator.zekcraftbeta.client.renderer.PrisonRenderer;
+import net.mcreator.zekcraftbeta.client.renderer.PoopmonsterRenderer;
 import net.mcreator.zekcraftbeta.client.renderer.MrSkellyBonesRenderer;
 import net.mcreator.zekcraftbeta.client.renderer.KiryuKazumaRenderer;
 import net.mcreator.zekcraftbeta.client.renderer.JetstreamSamRenderer;
@@ -50,5 +52,8 @@ public class ZekcraftBetaModEntityRenderers {
 		event.registerEntityRenderer(ZekcraftBetaModEntities.JETSTREAM_SAM.get(), JetstreamSamRenderer::new);
 		event.registerEntityRenderer(ZekcraftBetaModEntities.RONALDINHO.get(), RONALDINHORenderer::new);
 		event.registerEntityRenderer(ZekcraftBetaModEntities.SPINNING_COCKROACH.get(), SpinningCockroachRenderer::new);
+		event.registerEntityRenderer(ZekcraftBetaModEntities.PRISON.get(), PrisonRenderer::new);
+		event.registerEntityRenderer(ZekcraftBetaModEntities.PRISON_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ZekcraftBetaModEntities.POOPMONSTER.get(), PoopmonsterRenderer::new);
 	}
 }

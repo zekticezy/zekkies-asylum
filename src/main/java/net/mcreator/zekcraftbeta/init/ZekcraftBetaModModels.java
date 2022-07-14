@@ -15,10 +15,13 @@ import net.mcreator.zekcraftbeta.client.model.Modelroomba;
 import net.mcreator.zekcraftbeta.client.model.Modelpoopguardian;
 import net.mcreator.zekcraftbeta.client.model.Modelmoth;
 import net.mcreator.zekcraftbeta.client.model.Modelkiryu;
+import net.mcreator.zekcraftbeta.client.model.Modelhogrider;
 import net.mcreator.zekcraftbeta.client.model.Modelduck;
 import net.mcreator.zekcraftbeta.client.model.Modelcockroach;
 import net.mcreator.zekcraftbeta.client.model.Modelalex;
 import net.mcreator.zekcraftbeta.client.model.ModelVCR;
+import net.mcreator.zekcraftbeta.client.model.ModelPrison;
+import net.mcreator.zekcraftbeta.client.model.ModelPoopmonster;
 import net.mcreator.zekcraftbeta.client.model.ModelGloobus;
 import net.mcreator.zekcraftbeta.client.model.ModelGORILLA;
 import net.mcreator.zekcraftbeta.client.model.ModelCapybara;
@@ -35,12 +38,15 @@ public class ZekcraftBetaModModels {
 		event.registerLayerDefinition(Modelduck.LAYER_LOCATION, Modelduck::createBodyLayer);
 		event.registerLayerDefinition(Modelskelly.LAYER_LOCATION, Modelskelly::createBodyLayer);
 		event.registerLayerDefinition(ModelVCR.LAYER_LOCATION, ModelVCR::createBodyLayer);
+		event.registerLayerDefinition(ModelPoopmonster.LAYER_LOCATION, ModelPoopmonster::createBodyLayer);
 		event.registerLayerDefinition(Modelroomba.LAYER_LOCATION, Modelroomba::createBodyLayer);
 		event.registerLayerDefinition(Modelsaul.LAYER_LOCATION, Modelsaul::createBodyLayer);
+		event.registerLayerDefinition(ModelPrison.LAYER_LOCATION, ModelPrison::createBodyLayer);
 		event.registerLayerDefinition(Modelcockroach.LAYER_LOCATION, Modelcockroach::createBodyLayer);
 		event.registerLayerDefinition(Modelpoopguardian.LAYER_LOCATION, Modelpoopguardian::createBodyLayer);
 		event.registerLayerDefinition(ModelCR.LAYER_LOCATION, ModelCR::createBodyLayer);
 		event.registerLayerDefinition(ModelGloobus.LAYER_LOCATION, ModelGloobus::createBodyLayer);
 		event.registerLayerDefinition(ModelGORILLA.LAYER_LOCATION, ModelGORILLA::createBodyLayer);
+		event.registerLayerDefinition(Modelhogrider.LAYER_LOCATION, Modelhogrider::createBodyLayer);
 	}
 }

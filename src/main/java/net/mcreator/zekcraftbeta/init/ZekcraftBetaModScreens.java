@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.zekcraftbeta.client.gui.CreditsScreen;
+import net.mcreator.zekcraftbeta.client.gui.ComputerScreenScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ZekcraftBetaModScreens {
@@ -19,6 +20,7 @@ public class ZekcraftBetaModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ZekcraftBetaModMenus.CREDITS, CreditsScreen::new);
+			MenuScreens.register(ZekcraftBetaModMenus.COMPUTER_SCREEN, ComputerScreenScreen::new);
 		});
 	}
 }

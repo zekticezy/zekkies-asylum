@@ -114,6 +114,11 @@ public class ZekcraftBetaModItems {
 	public static final RegistryObject<Item> NOKIA_3310 = REGISTRY.register("nokia_3310", () -> new ArabicNokiaItem());
 	public static final RegistryObject<Item> SAM_MURASAMA = REGISTRY.register("sam_murasama", () -> new SamMurasamaItem());
 	public static final RegistryObject<Item> MUG_ROOT_BEER = REGISTRY.register("mug_root_beer", () -> new MUGRootBeerItem());
+	public static final RegistryObject<Item> COMPUTER = block(ZekcraftBetaModBlocks.COMPUTER, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PRISON = REGISTRY.register("prison_spawn_egg",
+			() -> new ForgeSpawnEggItem(ZekcraftBetaModEntities.PRISON, -3381760, -10092544, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> POOPMONSTER = REGISTRY.register("poopmonster_spawn_egg",
+			() -> new ForgeSpawnEggItem(ZekcraftBetaModEntities.POOPMONSTER, -3407872, -26368, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

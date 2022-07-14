@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.zekcraftbeta.world.inventory.CreditsMenu;
+import net.mcreator.zekcraftbeta.world.inventory.ComputerScreenMenu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +22,8 @@ import java.util.ArrayList;
 public class ZekcraftBetaModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<CreditsMenu> CREDITS = register("credits", (id, inv, extraData) -> new CreditsMenu(id, inv, extraData));
+	public static final MenuType<ComputerScreenMenu> COMPUTER_SCREEN = register("computer_screen",
+			(id, inv, extraData) -> new ComputerScreenMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

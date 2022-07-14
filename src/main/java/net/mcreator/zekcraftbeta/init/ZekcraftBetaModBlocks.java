@@ -26,6 +26,7 @@ import net.mcreator.zekcraftbeta.block.HardwoodFenceGatesBlock;
 import net.mcreator.zekcraftbeta.block.HardwoodFenceBlock;
 import net.mcreator.zekcraftbeta.block.HardwoodDoorBlock;
 import net.mcreator.zekcraftbeta.block.HardWoodBlock;
+import net.mcreator.zekcraftbeta.block.ComputerBlock;
 import net.mcreator.zekcraftbeta.block.ChickenBlockBlock;
 import net.mcreator.zekcraftbeta.block.BrazilBlockBlock;
 import net.mcreator.zekcraftbeta.block.BRAZILPortalBlock;
@@ -51,6 +52,7 @@ public class ZekcraftBetaModBlocks {
 	public static final RegistryObject<Block> HARDWOOD_SLAB = REGISTRY.register("hardwood_slab", () -> new HardwoodSlabBlock());
 	public static final RegistryObject<Block> SHIT_WORLD_PORTAL = REGISTRY.register("shit_world_portal", () -> new ShitWorldPortalBlock());
 	public static final RegistryObject<Block> BRAZIL_PORTAL = REGISTRY.register("brazil_portal", () -> new BRAZILPortalBlock());
+	public static final RegistryObject<Block> COMPUTER = REGISTRY.register("computer", () -> new ComputerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

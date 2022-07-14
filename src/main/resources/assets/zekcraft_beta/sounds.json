@@ -148,5 +148,35 @@
         "stream": false
       }
     ]
+  },
+  "order": {
+    "category": "record",
+    "subtitle": "subtitles.order",
+    "sounds": [
+      {
+        "name": "zekcraft_beta:yt1s-_mp3cut.net__4_",
+        "stream": true
+      }
+    ]
+  },
+  "chaos": {
+    "category": "record",
+    "subtitle": "subtitles.chaos",
+    "sounds": [
+      {
+        "name": "zekcraft_beta:yt1s-_mp3cut.net__5_",
+        "stream": true
+      }
+    ]
+  },
+  "chaos_end": {
+    "category": "record",
+    "subtitle": "subtitles.chaos_end",
+    "sounds": [
+      {
+        "name": "zekcraft_beta:yt1s-_mp3cut.net__6_",
+        "stream": true
+      }
+    ]
   }
 }
