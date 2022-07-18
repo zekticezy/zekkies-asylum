@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zekcraft:blocks/computer_sides",
+    "up": "zekcraft:blocks/computer_sides",
+    "north": "zekcraft:blocks/computerscreen",
+    "east": "zekcraft:blocks/computer_sides",
+    "south": "zekcraft:blocks/computer_sides",
+    "west": "zekcraft:blocks/computer_sides",
+    "particle": "zekcraft:blocks/computer_sides"
+  }
+}

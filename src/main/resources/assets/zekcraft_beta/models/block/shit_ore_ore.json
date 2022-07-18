@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "zekcraft_beta:blocks/shitore_ore",
-    "particle": "zekcraft_beta:blocks/shitore_ore"
-  }
-}

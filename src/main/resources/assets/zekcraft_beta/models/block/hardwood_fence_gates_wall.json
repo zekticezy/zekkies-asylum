@@ -1,6 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall",
-  "textures": {
-    "texture": "zekcraft_beta:blocks/hardwood_fence"
-  }
-}

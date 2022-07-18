@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "2": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "3": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "4": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "5": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "6": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "7": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "8": {
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "result": {
+    "item": "zekcraft:chicken_block",
+    "count": 1
+  }
+}

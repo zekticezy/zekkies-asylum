@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "zekcraft_beta:brazil_block",
-    "zekcraft_beta:shit_ore_ore"
+    "zekcraft:brazil_block",
+    "zekcraft:shit_ore_ore"
   ]
 }

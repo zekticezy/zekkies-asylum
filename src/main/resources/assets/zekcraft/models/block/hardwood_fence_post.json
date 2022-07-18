@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "zekcraft:blocks/hardwood_fence",
+    "particle": "zekcraft:blocks/hardwood_fence"
+  }
+}

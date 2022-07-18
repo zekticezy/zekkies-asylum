@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zekcraft:shit"
+    },
+    {
+      "item": "zekcraft:shit"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "zekcraft:shit_sword",
+    "count": 1
+  }
+}

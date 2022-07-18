@@ -3,8 +3,8 @@ loaderVersion="[40,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="zekcraft_beta"
-version="1.0.0"
+modId="zekcraft"
+version="1.0.2"
 displayName="Zekcraft"
 credits="Made with MCreator! https://mcreator.net ;)"
 displayURL="https://sites.google.com/view/zekticezy"
@@ -14,7 +14,7 @@ description='''
 Make your game even WORSE!
 '''
 
-[[dependencies.zekcraft_beta]]
+[[dependencies.zekcraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"

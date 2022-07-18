@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zekcraft:blocks/shitblock",
+    "up": "zekcraft:blocks/shitblock",
+    "north": "zekcraft:blocks/shitblock",
+    "east": "zekcraft:blocks/shitblock",
+    "south": "zekcraft:blocks/shitblock",
+    "west": "zekcraft:blocks/shitblock",
+    "particle": "zekcraft:blocks/shitblock"
+  }
+}

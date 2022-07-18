@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "zekcraft_beta:piss",
-    "zekcraft_beta:flowing_piss"
+    "zekcraft:piss",
+    "zekcraft:flowing_piss"
   ]
 }

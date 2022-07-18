@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "zekcraft:blocks/hardwood_planks",
+    "top": "zekcraft:blocks/hardwood_planks",
+    "side": "zekcraft:blocks/hardwood_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zekcraft:blocks/hardwood_planks",
+    "up": "zekcraft:blocks/hardwood_planks",
+    "north": "zekcraft:blocks/hardwood_planks",
+    "east": "zekcraft:blocks/hardwood_planks",
+    "south": "zekcraft:blocks/hardwood_planks",
+    "west": "zekcraft:blocks/hardwood_planks",
+    "particle": "zekcraft:blocks/hardwood_planks"
+  }
+}

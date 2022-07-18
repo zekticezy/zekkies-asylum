@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zekcraft:hardwood_planks"
+    },
+    {
+      "item": "zekcraft:hardwood_planks"
+    },
+    {
+      "item": "zekcraft:hardwood_planks"
+    }
+  ],
+  "result": {
+    "item": "zekcraft:hardwood_slab",
+    "count": 1
+  }
+}

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "zekcraft_beta:sulfric_acid",
-    "zekcraft_beta:flowing_sulfric_acid"
+    "zekcraft:sulfric_acid",
+    "zekcraft:flowing_sulfric_acid"
   ]
 }

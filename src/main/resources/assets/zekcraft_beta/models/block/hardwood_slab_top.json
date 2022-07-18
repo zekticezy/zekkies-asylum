@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "zekcraft_beta:blocks/hardwood_planks",
-    "top": "zekcraft_beta:blocks/hardwood_planks",
-    "side": "zekcraft_beta:blocks/hardwood_planks"
-  }
-}

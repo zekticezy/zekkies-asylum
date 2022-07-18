@@ -1,0 +1,114 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 369,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Super-Duper-Computer 5000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "The Super-Duper-Computer 5000",
+          "x": 42,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unfortunantely, I can't show all recipes here.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Unfortunantely, I can't show all recipes here.",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BUUUT, they're all avalible on a .pdf file i made.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "BUUUT, they're all avalible on a .pdf file i made.",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Check it out!",
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "name": "Check it out!",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "BackToMainScreen"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 42,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "https://www.dropbox.com/s/kupqcuiolqqstrl/zekcraft_recipies.pdf?dl=0",
+          "color": {
+            "value": -10066177,
+            "falpha": 0.0
+          },
+          "name": "https://www.dropbox.com/s/kupqcuiolqqstrl/zekcraft_recipies.pdf?dl=0",
+          "x": 33,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(Downloading file is not nessecary, Dropbox embeds it)",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "(Downloading file is not nessecary, Dropbox embeds it)",
+          "x": 33,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

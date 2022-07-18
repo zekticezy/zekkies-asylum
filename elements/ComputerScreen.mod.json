@@ -3,37 +3,110 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 350,
+    "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": true,
+    "renderBgLayer": false,
     "doesPauseGame": false,
     "components": [
       {
         "type": "label",
         "data": {
-          "text": "W.I.P!",
+          "text": "TIP OF THE DAY:",
           "color": {
-            "value": -16777216,
+            "value": -13312,
             "falpha": 0.0
           },
-          "name": "W.I.P!",
-          "x": 195,
-          "y": 49
+          "name": "TIP OF THE DAY:",
+          "x": 231,
+          "y": 107
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "Will be finished by 1.0.4!",
+          "text": "W.I.P",
           "color": {
-            "value": -12829636,
+            "value": -13382656,
             "falpha": 0.0
           },
-          "name": "Will be finished by 1.0.4!",
-          "x": 147,
-          "y": 61
+          "name": "W.I.P",
+          "x": 255,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ENEMIES",
+          "onClick": {
+            "name": "OpenEnemiesScreen"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "ENEMIES",
+          "x": 51,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "CRAFTING RECIPES",
+          "width": 108,
+          "height": 20,
+          "name": "CRAFTING RECIPES",
+          "x": 51,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "STORAGE",
+          "width": 61,
+          "height": 20,
+          "name": "STORAGE",
+          "x": 51,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Super-Duper-Computer 5000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "The Super-Duper-Computer 5000",
+          "x": 51,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ITEMS",
+          "width": 51,
+          "height": 20,
+          "name": "ITEMS",
+          "x": 51,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Press 'ESC' to close this screen",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Press 'ESC' to close this screen",
+          "x": 42,
+          "y": 206
         }
       }
     ],
@@ -42,7 +115,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }
