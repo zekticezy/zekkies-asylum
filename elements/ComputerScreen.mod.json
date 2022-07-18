@@ -7,7 +7,7 @@
     "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": false,
+    "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
       {
@@ -54,6 +54,9 @@
         "type": "button",
         "data": {
           "text": "CRAFTING RECIPES",
+          "onClick": {
+            "name": "OpenCraftingScreen"
+          },
           "width": 108,
           "height": 20,
           "name": "CRAFTING RECIPES",
@@ -65,6 +68,9 @@
         "type": "button",
         "data": {
           "text": "STORAGE",
+          "onClick": {
+            "name": "OpenStorageScreen"
+          },
           "width": 61,
           "height": 20,
           "name": "STORAGE",
@@ -77,12 +83,12 @@
         "data": {
           "text": "The Super-Duper-Computer 5000",
           "color": {
-            "value": -1,
+            "value": -16777216,
             "falpha": 0.0
           },
           "name": "The Super-Duper-Computer 5000",
           "x": 51,
-          "y": 26
+          "y": 35
         }
       },
       {
@@ -101,7 +107,7 @@
         "data": {
           "text": "Press 'ESC' to close this screen",
           "color": {
-            "value": -1,
+            "value": -16777216,
             "falpha": 0.0
           },
           "name": "Press 'ESC' to close this screen",

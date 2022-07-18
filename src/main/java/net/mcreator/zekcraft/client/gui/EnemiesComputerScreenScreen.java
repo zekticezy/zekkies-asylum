@@ -11,6 +11,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.zekcraft.world.inventory.EnemiesComputerScreenMenu;
+import net.mcreator.zekcraft.network.EnemiesComputerScreenButtonMessage;
+import net.mcreator.zekcraft.ZekcraftMod;
 
 import java.util.HashMap;
 
@@ -92,6 +94,10 @@ public class EnemiesComputerScreenScreen extends AbstractContainerScreen<Enemies
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 291, this.topPos + 168, 46, 20, new TextComponent("Back"), e -> {
+			if (true) {
+				ZekcraftMod.PACKET_HANDLER.sendToServer(new EnemiesComputerScreenButtonMessage(0, x, y, z));
+				EnemiesComputerScreenButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 	}
 }

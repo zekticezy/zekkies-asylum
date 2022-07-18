@@ -170,6 +170,9 @@
         "type": "button",
         "data": {
           "text": "Back",
+          "onClick": {
+            "name": "BackToMainScreen"
+          },
           "width": 46,
           "height": 20,
           "name": "Back",
