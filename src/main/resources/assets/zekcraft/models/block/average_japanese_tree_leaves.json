@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "zekcraft:blocks/japanese_tree_leaves",
-    "particle": "zekcraft:blocks/japanese_tree_leaves"
-  }
-}

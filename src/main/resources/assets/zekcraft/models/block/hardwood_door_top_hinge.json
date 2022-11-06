@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_top_rh",
-  "textures": {
-    "bottom": "zekcraft:blocks/hardwood_door_bottom",
-    "top": "zekcraft:blocks/hardwood_door_top"
-  }
-}
